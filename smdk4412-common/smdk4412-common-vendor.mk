@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/lib/libddc.so:system/lib/libddc.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libedid.so:system/lib/libedid.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/smdk4412-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/smdk4412-common/proprietary/usr/idc/melfas_ts.idc:system/usr/idc/melfas_ts.idc \
     vendor/samsung/smdk4412-common/proprietary/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc \
     vendor/samsung/smdk4412-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
