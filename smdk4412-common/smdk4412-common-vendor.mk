@@ -35,10 +35,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
-    vendor/samsung/smdk4412-common/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/smdk4412-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/smdk4412-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/smdk4412-common/proprietary/lib/libMali.so:system/lib/libMali.so \
+    vendor/samsung/smdk4412-common/prebuilt/libMali/lib/libMali.so:obj/lib/libMali.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libMcVersion.so:system/lib/libMcVersion.so \
