@@ -17,6 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/i9300/proprietary/bin/glgps:system/bin/glgps \
-    vendor/samsung/i9300/proprietary/lib/hw/gps.exynos4.vendor.so:system/lib/hw/gps.exynos4.vendor.so \
+    vendor/samsung/i9300/proprietary/lib/hw/gps.exynos4.vendor.so:system/vendor/lib/hw/gps.exynos4.vendor.so \
     vendor/samsung/i9300/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/i9300/proprietary/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so
