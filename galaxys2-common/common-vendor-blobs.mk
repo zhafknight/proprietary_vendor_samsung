@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/bcm4330B1.hcd:system/bin/bcm4330B1.hcd \
-    $(LOCAL_PATH)/proprietary/system/bin/bcm4330B1_murata.hcd:system/bin/bcm4330B1_murata.hcd \
-    $(LOCAL_PATH)/proprietary/system/bin/bcm4330B1_semcosh.hcd:system/bin/bcm4330B1_semcosh.hcd
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/bcm4330B1.hcd:system/vendor/firmware/bcm4330B1.hcd \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/bcm4330B1_murata.hcd:system/vendor/firmware/bcm4330B1_murata.hcd \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/bcm4330B1_semcosh.hcd:system/vendor/firmware/bcm4330B1_semcosh.hcd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
