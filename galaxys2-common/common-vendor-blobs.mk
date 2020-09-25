@@ -51,4 +51,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libprotobuf-old-lite.so:system/lib/libprotobuf-old-lite.so
+    $(LOCAL_PATH)/proprietary/system/lib/libprotobuf-old-lite.so:system/lib/libprotobuf-old-lite.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so
