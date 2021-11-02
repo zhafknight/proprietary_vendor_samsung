@@ -31,9 +31,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libEGL_mali.so:system/vendor/lib/egl/libEGL_mali.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLESv1_CM_mali.so:system/vendor/lib/egl/libGLESv1_CM_mali.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLESv2_mali.so:system/vendor/lib/egl/libGLESv2_mali.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libMali.so:system/lib/libMali.so \
