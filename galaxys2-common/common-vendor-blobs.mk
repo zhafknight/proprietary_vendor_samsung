@@ -54,3 +54,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libprotobuf-old-lite.so:system/lib/libprotobuf-old-lite.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:system/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libhidltransport.so:system/vendor/lib/libhidltransport.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libhwc2on1adapter.so:system/vendor/lib/libhwc2on1adapter.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libhwc2onfbadapter.so:system/vendor/lib/libhwc2onfbadapter.so
+
+
