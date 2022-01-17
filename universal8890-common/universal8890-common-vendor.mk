@@ -125,14 +125,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
-    vendor/samsung/universal8890-common/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/wifi_sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_sec.rc \
