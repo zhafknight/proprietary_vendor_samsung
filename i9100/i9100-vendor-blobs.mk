@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/vendor/lib/libakm.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-cl-gps.so:system/vendor/lib/libsecril-cl-gps.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/vendor/lib/hw/gps.exynos4.vendor.so
 
 PRODUCT_COPY_FILES += \
