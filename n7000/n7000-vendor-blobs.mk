@@ -29,4 +29,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt_murata:system/vendor/etc/wifi/nvram_mfg.txt_murata \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/vendor/etc/wifi/nvram_net.txt_murata
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/vendor/etc/wifi/nvram_net.txt_murata \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_semcove:system/vendor/etc/wifi/nvram_net.txt_semcove
