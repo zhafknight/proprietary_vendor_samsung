@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/samsung/i9100
+LOCAL_PATH := vendor/samsung/n7000
 
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/vendor/lib/libakm.so \
