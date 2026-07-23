@@ -53,4 +53,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(LOCAL_PATH)/proprietary/system/lib/libprotobuf-old-lite.so:system/lib/libprotobuf-old-lite.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
-    $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libcutils-v29.so:system/vendor/lib/libcutils-v29.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libsqlite.so:system/vendor/lib/libsqlite.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so
