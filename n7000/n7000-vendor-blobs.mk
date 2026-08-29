@@ -15,8 +15,8 @@
 LOCAL_PATH := vendor/samsung/n7000
 
 PRODUCT_COPY_FILES := \
-    $(LOCAL_PATH)/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
+    $(LOCAL_PATH)/proprietary/system/bin/gps.cer:system/vendor/bin/gps.cer \
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/vendor/bin/gpsd \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/vendor/lib/libakm.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.manta.so:system/vendor/lib/hw/gps.exynos4.vendor.so
